@@ -43,7 +43,7 @@
 		$user_meta = Auth::User();   
 
 
-4. Login user with email and password. If login in not valid, then returns **AuthException $e** 
+4. Login user with email and password. If login is not valid, then returns **AuthException $e** 
 
 		try{
 			if(Auth::login($email, $password){
